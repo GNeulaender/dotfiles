@@ -1,6 +1,0 @@
-2020/06/07-00:08:47.267 10f7 Reusing MANIFEST leveldb/MANIFEST-000001
-2020/06/07-00:08:47.280 10f7 Recovering log #103
-2020/06/07-00:08:47.347 10f7 Reusing old log leveldb/000103.log 
-2020/06/07-00:24:47.401 10f7 Level-0 table #107: started
-2020/06/07-00:24:47.444 10f7 Level-0 table #107: 16272 bytes OK
-2020/06/07-00:24:47.469 10f7 Delete type=0 #103
