@@ -181,8 +181,8 @@ filextype *.ps,*.eps,*.ps.gz
         \ {View in gv}
         \ gv %c %i &,
 
-" Djvu
-filextype *.djvu
+" Djvu & EPUB
+filextype *.djvu, *.epub
         \ {View in zathura}
         \ zathura %f,
         \ {View in apvlv}
@@ -233,6 +233,8 @@ fileviewer *.[1-8] man ./%c | col -b
 
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+	\ {View in feh}
+	\ feh %f,
         \ {View in sxiv}
         \ sxiv %f,
         \ {View in gpicview}
@@ -240,7 +242,10 @@ filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
         \ {View in shotwell}
         \ shotwell,
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-         \ identify %f
+	" \ kitty icat --silent --place=%pwx%ph@%pxx%py %c
+	" \ %pc
+	" \ kitty icat --silent --clear
+	\ identify %f
 
 " OpenRaster
 filextype *.ora

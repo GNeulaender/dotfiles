@@ -13,8 +13,8 @@
 # Bookmarks:
 
 # TUI:
-al
-q1
+ar
+q0
 v2
 ov
 m-1
@@ -22,309 +22,312 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/mnt
-	..
-0
-d/
-	mnt
-8
-d/mnt
-	..
-0
-d/
-	mnt
-8
-d/mnt
-	Guido
-1
-d/mnt/Guido
-	..
-0
-d/mnt
-	Guido
-1
-d/mnt/Guido
-	Imagens
-2
-d/mnt/Guido/Imagens
-	Papéis de parede
-1
-d/mnt/Guido/Imagens/Papéis de parede
-	..
-0
-d/mnt/Guido/Imagens
-	..
-0
-d/mnt/Guido
-	Vídeos
-3
-d/mnt/Guido/Vídeos
-	Kimi_ni_Todoke
-1
-d/mnt/Guido/Vídeos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/mnt/Guido/Vídeos/Kimi_ni_Todoke/Temporada 1
-	..
-0
-d/mnt/Guido/Vídeos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/mnt/Guido/Vídeos/Kimi_ni_Todoke/Temporada 1
-	[Diogo4D-MDS] [BD][1080p] Kimi ni Todoke 01 [28A0AAE7].mkv
-1
-d/mnt
-	..
-0
-d/
-	mnt
-8
-d/mnt
-	..
-0
-d/
-	proc
-10
-d/proc
-	..
-0
-d/
-	lib64
-6
-d/lib64
-	..
-0
-d/
-	usr
-17
-d/usr
-	..
-0
-d/
-	home
+d/home/guido/Documents/Programming
+	Python
 4
-d/home
-	guido
+d/home/guido/Documents/Programming/Python
+	CoronaVirus
 1
-d/home/guido
-	Desktop
-1
-d/home/guido/Desktop
-	..
-0
-d/home/guido
-	Documents
-2
-d/home/guido/Documents
-	..
-0
-d/home/guido
-	Videos
-8
-d/home/guido/Videos
-	Kimi_ni_Todoke
-1
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos/Kimi_ni_Todoke/Temporada 1
-	[Diogo4D-MDS] [BD][1080p] Kimi ni Todoke 01 [28A0AAE7].mkv
-1
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos
-	..
-0
-d/home/guido
-	..
-0
-d/home
-	guido
-1
-d/home/guido
-	..
-0
-d/home
-	..
-0
-d/
-	etc
+d/home/guido/Documents/Programming
+	KakashiBot
 3
-d/etc
+d/home/guido/Documents/Programming/KakashiBot
+	bot-icon.png
+1
+d/home/guido/Documents/Programming
+	GitHub
+2
+d/home/guido/Documents
+	Unicamp
+11
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp/1s-2020/MA502
+	lista-1.tex
+5
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido
+	Music
+4
+d/home/guido/Music
 	..
 0
-d/
-	etc
+d/home/guido
+	Downloads
 3
-d/home/guido/Videos
-	Kimi_ni_Todoke
-1
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos/Kimi_ni_Todoke/Temporada 1
-	[Diogo4D-MDS] [BD][1080p] Kimi ni Todoke 01 [28A0AAE7].mkv
-1
-d/home/guido/.config/rofi/scripts/RofiFtw
-	APIs
-1
-d/home/guido/.config/rofi/scripts/RofiFtw/APIs
-	wikipedia
-9
-d/home/guido
-	Videos
-8
-d/home/guido/Videos
-	Kimi_ni_Todoke
-1
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos/Kimi_ni_Todoke/Temporada 1
-	[Diogo4D-MDS] [BD][1080p] Kimi ni Todoke 07 [1D4B0C0B].mkv
-7
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos
+d/home/guido/Downloads
 	..
 0
-d/home/guido
-	Pictures
-5
-d/home/guido/Pictures
-	invader_zim.png
-15
 d/home/guido
 	Documents
 2
 d/home/guido/Documents
-	PDFs
-7
-d/home/guido/Documents/PDFs
-	RPGs
+	Livros
+6
+d/home/guido/Documents/Livros
+	Paulo Freire
+4
+d/home/guido/Documents/Livros/Paulo Freire
+	..
+0
+d/home/guido/Documents/Livros
+	..
+0
+d/home/guido/Documents
+	Emuladores
 3
-d/home/guido/Documents/PDFs/RPGs
-	D&D 5E
-2
-d/home/guido/Documents/PDFs/RPGs/D&D 5E
-	..
-0
-d/home/guido/Documents/PDFs/RPGs
-	..
-0
-d/home/guido/Documents/PDFs
-	..
-0
-d/home/guido/Documents
-	PDFs
-7
 d/home/guido
-	Videos
+	Downloads
+3
+d/home/guido/Downloads
+	..
+0
+d/home/guido
+	Documents
+2
+d/home/guido/Documents
+	Unicamp
+11
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp/1s-2020/MA502
+	..
+0
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents
+	Programming
 8
-d/home/guido/Videos
-	Kimi_ni_Todoke
-1
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos/Kimi_ni_Todoke/Temporada 1
-	[Diogo4D-MDS] [BD][1080p] Kimi ni Todoke 09 [B7BC4A15].mkv
-9
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos
-	Kimi_ni_Todoke
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	..
+0
+d/home/guido
+	Documents
+2
+d/home/guido/Documents
+	Unicamp
+11
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp/1s-2020/MA502
+	Lista 1.pdf
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents
+	Unicamp
+11
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	youtube
 1
 d/home/guido
 	Documents
 2
 d/home/guido/Documents
-	PDFs
-7
+	Unicamp
+11
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp/1s-2020/MA502
+	..
+0
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp/1s-2020/MA502
+	lista_1-ra217100.tex
+8
+d/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents
+	Unicamp
+11
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	..
+0
 d/home/guido
 	Documents
 2
 d/home/guido/Documents
-	Aulas
+	Emuladores
+3
+d/home/guido/Documents/Emuladores
+	Dolphin
 1
-d/home/guido/Documents/Aulas
-	Emancipa
-1
-d/home/guido/Documents/Aulas/Emancipa
-	Provas_CUTUCA
-2
-d/home/guido/Documents/Aulas/Emancipa/Provas_CUTUCA
-	fisica_2018-2010
-1
-d/home/guido/Documents/Aulas/Emancipa/Provas_CUTUCA/fisica_2018-2010
-	cotuca-2018-fisica.pdf
-9
-d/home/guido/Documents/Aulas/Emancipa/Provas_CUTUCA
+d/home/guido/Documents/Emuladores/Dolphin
 	..
 0
-d/home/guido/Documents/Aulas/Emancipa
-	Provas_CUTUCA
-2
-d/home/guido/Documents/Aulas
-	Emancipa
+d/home/guido/Documents/Emuladores
+	Dolphin
+1
+d/home/guido/Documents/Emuladores/Dolphin
+	Super Smash Bros. Melee (USA) (En,Ja) (v1.02).7z
+1
+d/home/guido/Documents/Emuladores
+	Dolphin
 1
 d/home/guido/Documents
-	Compras
+	Emuladores
+3
+d/home/guido
+	Documents
+2
+d/home/guido/Documents
+	Livros
+6
+d/home/guido/Documents/Livros
+	Matemática
+3
+d/home/guido/Documents/Livros/Matemática
+	Algebra
+1
+d/home/guido/Documents/Livros/Matemática/Algebra
+	(Graduate Texts in Mathematics) Robin Hartshorne - Algebraic Geometry-Springer (1997).djvu
+1
+d/home/guido/Documents/Livros/Matemática
+	Algebra
+1
+d/home/guido/Documents/Livros
+	Fisica
+1
+d/home/guido/Documents
+	LaTeX
+5
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	..
+0
+d/home/guido
+	Documents
+2
+d/home/guido/Documents
+	Unicamp
+11
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	PAD_MA327
+5
+d/home/guido/Documents/Unicamp/1s-2020/PAD_MA327
+	Algebra Linear com Aplicaçoes - 10 Edição Anton.pdf
+1
+d/home/guido/Documents/Unicamp/1s-2020
+	PAD_MA327
+5
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents
+	Livros
+6
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	Segunda_Avaliacao.ino
 2
 d/home/guido
-	Pictures
-5
-d/home/guido/Pictures
-	mononoke_by_leopinheiro-d782ltn.jpg
-18
-d/home/guido
-	Pictures
-5
-d/home/guido/Pictures
-	mononoke_by_leopinheiro-d782ltn.jpg
-18
-d/home/guido
-	Pictures
-5
-d/home/guido/Pictures
+	Templates
+7
+d/home/guido/Templates
 	..
 0
 d/home/guido
-	Pictures
-5
-d/home/guido/Pictures
+	Documents
+2
+d/home/guido/Documents
+	Unicamp
+11
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	PAD_MA327
+6
+d/home/guido/Documents/Unicamp/1s-2020/PAD_MA327
+	Algebra Linear com Aplicaçoes - 10 Edição Anton.pdf
+1
+d/home/guido/Documents/Unicamp/1s-2020/MA311/latex.out
 	..
 0
-d/home/guido
-	Pictures
-5
-d/home/guido/Pictures
-	octopus_background-4.jpg
-23
-d/home/guido
-	Pictures
-5
-d/home/guido/Pictures
-	octopus_background-to_edit.png
-25
-d/home/guido
-	Videos
-8
-d/home/guido/Videos
-	Kimi_ni_Todoke
+d/home/guido/Documents/Unicamp/1s-2020/MA311
+	testinho-4.tex
+17
+d/home/guido/Documents/Unicamp/1s-2020
+	MA724
+3
+d/home/guido/Documents/Unicamp/1s-2020/MA724
+	atividade_sobre_cônicas.pdf
 1
-d/home/guido/Videos/Kimi_ni_Todoke
-	Temporada 1
-1
-d/home/guido/Videos/Kimi_ni_Todoke/Temporada 1
-	[Diogo4D-MDS] [BD][1080p] Kimi ni Todoke 21 [747AAA3D].mkv
-21
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	Aula 06-25.pdf
+3
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	Aula 06-25.pdf
+3
+d/home/guido
+	Documents
+2
+d/home/guido/Documents
+	Unicamp
+11
 d
 
 # Right window history (oldest to newest):
+D/home/guido/Templates
+	math_latex_template.tex
+1
 D/home/guido/Documents
 	Livros
 6
@@ -350,11 +353,63 @@ D/home/guido/Videos/Kimi_ni_Todoke/Temporada 1
 	[Diogo4D-MDS] [BD][1080p] Kimi ni Todoke 01 [28A0AAE7].mkv
 1
 D/home/guido
-	..
-0
+	Documents
+2
+D/home/guido/Documents
+	Unicamp
+11
+D/home/guido/Documents/Unicamp
+	1s-2020
+2
+D/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+D/home/guido/Documents/Unicamp/1s-2020/MA502
+	Lista 4.pdf
+2
+D/home/guido/Documents/Unicamp/1s-2020
+	MA724
+3
+D/home/guido/Documents/Unicamp/1s-2020/MA724
+	atividade sobre cônicas.pdf
+1
+D/home/guido/Documents/Unicamp/1s-2020
+	MA724
+3
+D/home/guido/Documents/Unicamp/1s-2020/MA724
+	atividade sobre cônicas.pdf
+1
+D/home/guido/Documents/Unicamp/1s-2020
+	MA502
+2
+D/home/guido/Documents/Unicamp/1s-2020/MA502
+	lista_1-ra217100.tex
+9
+D/home/guido/Documents/Unicamp/1s-2020
+	MA724
+3
+D/home/guido/Documents/Unicamp/1s-2020/MA724
+	atividade_sobre_cônicas.pdf
+1
+D/home/guido/Documents/Unicamp/1s-2020/MA311
+	testinho-5.tex
+19
+D/home/guido/Documents/Unicamp/1s-2020
+	PAD_MA327
+6
+D/home/guido/Documents/Unicamp/1s-2020/PAD_MA327
+	Algebra Linear com Aplicaçoes - 10 Edição Anton.pdf
+2
+D/home/guido/Documents/Unicamp/1s-2020
+	MA724
+3
+D/home/guido/Documents/Unicamp/1s-2020/MA724
+	conicas_guido-ra217100.tex
+4
 D
 
 # Command line history (oldest to newest):
+:! zathura %f
 :feh %f
 :mpv %f
 :command
@@ -365,20 +420,30 @@ D
 :feh
 :vim episodes.txt
 :command! vim episodes.txt
-:q
 :feh -i
+:! zathura %
+:! unzip %f
+:! 7z e %f
+:! mkdir Dolphin
+:! mkdir PAD_MA327
+:! mkdir MA724
+:q
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
+ptestinho-6.tex
+ptestinho-6
 pNotas_de_Aula-Pulino.pdf
 pcotuca-fisica_2018-2010.pdf
+pmath_latex_template.tex
+pconicas_guido-ra217100
+patividade_sobre_cônicas
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/guido/.local/share/vifm/Trash/000_screenshot_1591367012.png
-""/home/guido/.local/share/vifm/Trash/000_screenshot_1591367024.png
+""/home/guido/.local/share/vifm/Trash/001_latex.out
 
 # Directory stack (oldest to newest):
 
@@ -393,6 +458,20 @@ t/home/guido/.local/share/vifm/Trash/000_screenshot_1591367012.png
 	/home/guido/Pictures/screenshot_1591367012.png
 t/home/guido/.local/share/vifm/Trash/000_screenshot_1591367024.png
 	/home/guido/Pictures/screenshot_1591367024.png
+t/home/guido/.local/share/vifm/Trash/000_Exercícios Turma A.pdf
+	/home/guido/Downloads/Exercícios Turma A.pdf
+t/home/guido/.local/share/vifm/Trash/000_kimi_ni_todoke_–_2_°_temporada__–_episódio_1_1350.mp4
+	/home/guido/Downloads/kimi_ni_todoke_–_2_°_temporada__–_episódio_1_1350.mp4
+t/home/guido/.local/share/vifm/Trash/000_Paulo Freire - Pedagogia da autonomia_ saberes necessários à prática educativa-Paz e Terra (2015).pdf
+	/home/guido/Downloads/Paulo Freire - Pedagogia da autonomia_ saberes necessários à prática educativa-Paz e Terra (2015).pdf
+t/home/guido/.local/share/vifm/Trash/000_lista_1-ra217100.pdf
+	/home/guido/Templates/lista_1-ra217100.pdf
+t/home/guido/.local/share/vifm/Trash/000_latex.out
+	/home/guido/Templates/latex.out
+t/home/guido/.local/share/vifm/Trash/000_math_latex_template.pdf
+	/home/guido/Documents/Unicamp/1s-2020/MA724/math_latex_template.pdf
+t/home/guido/.local/share/vifm/Trash/001_latex.out
+	/home/guido/Documents/Unicamp/1s-2020/MA724/latex.out
 
 # State:
 f

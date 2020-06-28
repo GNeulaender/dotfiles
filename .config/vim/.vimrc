@@ -32,15 +32,15 @@ set relativenumber
 "" Shortcuts
 ""
 """" Latex
-autocmd FileType tex nnoremap \c :w<CR>:! latexrun %<CR><CR>
+autocmd FileType tex nnoremap \o :w<CR>:! latexrun %<CR>
 autocmd FileType tex nnoremap \p :! zathura %:r.pdf &<CR><CR>
 """"
 
-call plug#begin('~/.vim/plugged')
+" call plug#begin('~/.vim/plugged')
 
-Plug 'lervag/vimtex'
+" Plug 'lervag/vimtex'
 
 ""
 "" Vimtex configuration
 ""
-let g:vimtex_view_general_viewer = 'Zathura'
+" let g:vimtex_view_general_viewer = 'Zathura'
