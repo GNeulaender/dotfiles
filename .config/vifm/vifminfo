@@ -13,8 +13,8 @@
 # Bookmarks:
 
 # TUI:
-ar
-q0
+al
+q1
 v2
 ov
 m-1
@@ -22,72 +22,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/guido/Documents/Programming
-	Python
-4
-d/home/guido/Documents/Programming/Python
-	CoronaVirus
-1
-d/home/guido/Documents/Programming
-	KakashiBot
-3
-d/home/guido/Documents/Programming/KakashiBot
-	bot-icon.png
-1
-d/home/guido/Documents/Programming
-	GitHub
-2
-d/home/guido/Documents
-	Unicamp
-11
-d/home/guido/Documents/Unicamp
-	1s-2020
-2
-d/home/guido/Documents/Unicamp/1s-2020
-	MA502
-2
-d/home/guido/Documents/Unicamp/1s-2020/MA502
-	lista-1.tex
-5
-d/home/guido/Documents/Unicamp/1s-2020
-	MA502
-2
-d/home/guido/Documents/Unicamp
-	1s-2020
-2
-d/home/guido
-	Music
-4
-d/home/guido/Music
-	..
-0
-d/home/guido
-	Downloads
-3
-d/home/guido/Downloads
-	..
-0
-d/home/guido
-	Documents
-2
-d/home/guido/Documents
-	Livros
-6
-d/home/guido/Documents/Livros
-	Paulo Freire
-4
-d/home/guido/Documents/Livros/Paulo Freire
-	..
-0
-d/home/guido/Documents/Livros
-	..
-0
-d/home/guido/Documents
-	Emuladores
-3
-d/home/guido
-	Downloads
-3
 d/home/guido/Downloads
 	..
 0
@@ -320,8 +254,74 @@ d/home/guido
 	Documents
 2
 d/home/guido/Documents
+	Compras
+2
+d/home/guido
+	Downloads
+3
+d/home/guido/Downloads
+	The Manga Guide to Cryptography ( PDFDrive.com ).pdf
+5
+d/home/guido
+	Pictures
+5
+d/home/guido/Pictures
+	Papéis de parede
+1
+d/home/guido/Downloads
+	Segunda_Avaliacao.ino
+5
+d/home/guido
+	Pictures
+5
+d/home/guido/Pictures
+	octopus_background-3.jpg
+22
+d/home/guido
+	Documents
+2
+d/home/guido/Documents
+	LaTeX
+5
+d/home/guido/Documents/LaTeX
+	Cicline
+2
+d/home/guido/Documents
 	Unicamp
 11
+d/home/guido/Documents/Unicamp
+	1s-2020
+2
+d/home/guido/Documents/Unicamp/1s-2020
+	PAD_MA327
+6
+d/home/guido/Documents/Unicamp/1s-2020/PAD_MA327
+	Latex
+1
+d/home/guido/Documents/Unicamp/1s-2020/PAD_MA327/Latex
+	gustavo_26-06.tex
+3
+d/home/guido/Documents/Unicamp/1s-2020/PAD_MA327
+	Latex
+1
+d/home/guido/Documents/Unicamp/1s-2020
+	MA724
+3
+d/home/guido/Documents/Unicamp/1s-2020/MA724
+	conicas_guido-ra217100_28-06-2020.pdf
+4
+d/home/guido/Documents/Unicamp/1s-2020
+	ME210
+4
+d/home/guido/Documents/Unicamp/1s-2020/ME210
+	..
+0
+d/home/guido/Documents/Unicamp/1s-2020
+	PAD_MA327
+6
+d/home/guido/Documents/Unicamp/1s-2020/PAD_MA327
+	Algebra Linear com Aplicaçoes - 10 Edição Anton.pdf
+2
 d
 
 # Right window history (oldest to newest):
@@ -404,8 +404,41 @@ D/home/guido/Documents/Unicamp/1s-2020
 	MA724
 3
 D/home/guido/Documents/Unicamp/1s-2020/MA724
-	conicas_guido-ra217100.tex
-4
+	..
+0
+D/home/guido/Documents/Unicamp/1s-2020
+	MA724
+3
+D/home/guido/Documents/Unicamp
+	1s-2020
+2
+D/home/guido/Documents
+	Livros
+6
+D/home/guido/Documents/Livros
+	Matemática
+3
+D/home/guido/Documents/Livros/Matemática
+	Type_Theory
+7
+D/home/guido/Documents/Livros/Matemática/Type_Theory
+	Programming_in_Martin-Lofs_Type_Theory.pdf
+1
+D/home/guido/Documents/Livros/Matemática
+	Calculo
+2
+D/home/guido/Documents/Livros/Matemática/Calculo
+	..
+0
+D/home/guido/Documents/Livros/Matemática
+	Algebra
+1
+D/home/guido/Documents/Livros/Matemática/Algebra
+	2018_Book_AbstractAlgebra.pdf
+5
+D/home/guido/Documents/Livros/Matemática
+	Algebra
+1
 D
 
 # Command line history (oldest to newest):
@@ -427,6 +460,11 @@ D
 :! mkdir Dolphin
 :! mkdir PAD_MA327
 :! mkdir MA724
+:echo $TERM
+:unzip %f
+:unzip
+:zip i5s_organs.zip
+:mkdir Type_Teory
 :q
 
 # Search history (oldest to newest):
@@ -439,11 +477,13 @@ pcotuca-fisica_2018-2010.pdf
 pmath_latex_template.tex
 pconicas_guido-ra217100
 patividade_sobre_cônicas
+pconicas_guido-ra217100_28-06-2020.pdf
+pProgramming_in_Martin-Lofs_Type_Theory
+pType_Theory
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/guido/.local/share/vifm/Trash/001_latex.out
 
 # Directory stack (oldest to newest):
 
@@ -472,6 +512,8 @@ t/home/guido/.local/share/vifm/Trash/000_math_latex_template.pdf
 	/home/guido/Documents/Unicamp/1s-2020/MA724/math_latex_template.pdf
 t/home/guido/.local/share/vifm/Trash/001_latex.out
 	/home/guido/Documents/Unicamp/1s-2020/MA724/latex.out
+t/home/guido/.local/share/vifm/Trash/000_i5s_organs.zip.zip
+	/home/guido/Downloads/i5s_organs.zip.zip
 
 # State:
 f
