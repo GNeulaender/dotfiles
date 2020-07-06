@@ -195,6 +195,3 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
   		ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
     ;;
 esac
-
-# Custom PATH
-export PATH=$PATH:/home/guido/.gem/ruby/2.7.0/bin
