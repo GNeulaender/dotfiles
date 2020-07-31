@@ -18,11 +18,11 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
-background-alt = #444
+background = #00222222
+background-alt = #aadfdfdf
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
+foreground = #555
+foreground-alt = #dfdfdf
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -57,7 +57,7 @@ font-1 = Iosevka Nerd Font:pixelsize=13;2
 
 enable-ipc = true
 
-modules-left = menu bspwm spotify
+modules-left = bspwm spotify
 modules-center = date
 modules-right = pulseaudio pacman-aur xkeyboard cpu memory eth
 
@@ -96,7 +96,7 @@ format-prefix-foreground = ${colors.foreground}
 format-prefix-underline = ${colors.secondary}
 
 label-layout =   %layout%
-label-layout-underline = ${colors.secondary}
+label-layout-underline = ${colors.background}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
@@ -117,8 +117,8 @@ label-unmounted-foreground = ${colors.foreground-alt}
 type = internal/bspwm
 
 label-focused = %index%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+label-focused-background = 
+label-focused-underline= ${colors.background-alt}
 label-focused-padding = 2
 
 label-occupied = %index%
@@ -151,7 +151,7 @@ label-song-ellipsis = true
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-underline = #f90000
+format-underline = 
 format-padding = 1
 label =   %percentage:%%
 
@@ -159,7 +159,7 @@ label =   %percentage:%%
 type = internal/memory
 interval = 2
 format-prefix-foreground = ${colors.foreground}
-format-underline = #4bffdc
+format-underline = 
 label =   %mb_used%
 
 [module/wlan]
@@ -189,7 +189,7 @@ type = internal/network
 interface = enp5s0
 interval = 3.0
 
-format-connected-underline = #55aa55
+format-connected-underline = 
 format-connected-prefix-foreground = ${colors.foreground}
 label-connected=   %downspeed%
 
@@ -209,7 +209,7 @@ date-alt =    %a, %B %d
 time =   %H:%M
 time-alt =   %H:%M
 
-format-underline = #0a6cf5
+format-underline = 
 
 label = %date% %time%
 
@@ -283,6 +283,8 @@ menu-2-1-exec = menu-open-0
 type = custom/script
 exec = ~/.config/polybar/scripts/updates-pacman-aurhelper.sh
 interval = 600
+
+click-left = ~/.config/polybar/scripts/updates-pacman-aurhelper.sh
 
 format-prefix = "  "
 
