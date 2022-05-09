@@ -1,0 +1,196 @@
+#+title: Guido's Emacs Config
+#+startup: overview
+* Identity
+Some functionality uses this to identify you, e.g. GPG configuration, email
+clients, file templates and snippets. It is optional.
+#+begin_src emacs-lisp :tangle yes
+(setq user-full-name "Guido Neulaender"
+      user-mail-address "guidoneulaender@gmail.com")
+#+end_src
+
+* Look
+** Fonts
+Doom exposes five (optional) variables for controlling fonts in Doom:
+
+- `doom-font' -- the primary font to use
+- `doom-variable-pitch-font' -- a non-monospace font (where applicable)
+- `doom-big-font' -- used for `doom-big-font-mode'; use this for
+  presentations or streaming.
+- `doom-unicode-font' -- for unicode glyphs
+- `doom-serif-font' -- for the `fixed-pitch-serif' face
+
+See 'C-h v doom-font' for documentation and more examples of what they
+accept. For example:
+
+#+begin_src emacs-lisp :tangle no
+(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
+      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
+#+end_src
+
+If you or Emacs can't find your font, use 'M-x describe-font' to look them
+up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
+refresh your font settings. If Emacs still can't find your font, it likely
+wasn't installed correctly. Font issues are rarely Doom issues!
+
+** Themes
+There are two ways to load a theme. Both assume the theme is installed and
+available. You can either set `doom-theme' or manually load a theme with the
+`load-theme' function. This is the default:
+#+begin_src emacs-lisp :tangle yes
+(setq doom-theme 'doom-flatwhite)
+#+end_src
+** Numbering
+This determines the style of line numbers in effect. If set to `nil', line
+numbers are disabled. For relative line numbers, set this to `relative'.
+#+begin_src emacs-lisp :tangle yes
+(setq display-line-numbers-type 'visual)
+#+end_src
+
+#+RESULTS:
+: visual
+
+* Org-mode config
+** Directory
+If you use `org' and don't want your org files in the default location below,
+change `org-directory'. It must be set before org loads!
+#+begin_src emacs-lisp :tangle yes
+(setq org-directory "~/org")
+
+(setq org-roam-directory "~/org/roam")
+#+end_src
+
+#+RESULTS:
+: ~/org/roam
+
+** Citations support
+#+begin_src emacs-lisp :tangle yes
+(after! citar
+  (setq citar-symbols
+        `((file ,(all-the-icons-faicon "file-o" :face 'all-the-icons-green :v-adjust -0.1) . " ")
+          (note ,(all-the-icons-material "speaker_notes" :face 'all-the-icons-blue :v-adjust -0.3) . " ")
+          (link ,(all-the-icons-octicon "link" :face 'all-the-icons-orange :v-adjust 0.01) . " ")))
+  (setq citar-symbol-separator "  ")
+  (setq! citar-bibliography '("~/.doom.d/biblatex/references.bib"))
+  (setq! citar-library-paths '("~/Zotero/storage"))
+  ;;(setq! citar-notes-paths '("$HOME/Zotero/storage"))
+  )
+#+end_src
+
+* Packages
+** General
+Whenever you reconfigure a package, make sure to wrap your config in an
+`after!' block, otherwise Doom's defaults may override your settings. E.g.
+
+#+begin_src emacs-lisp :tangle no
+(after! PACKAGE
+  (setq x y))
+#+end_src
+The exceptions to this rule:
+
+  - Setting file/directory variables (like `org-directory')
+  - Setting variables which explicitly tell you to set them before their
+    package is loaded (see 'C-h v VARIABLE' to look up their documentation).
+  - Setting doom variables (which start with 'doom-' or '+').
+
+Here are some additional functions/macros that will help you configure Doom.
+
+- `load!' for loading external *.el files relative to this one
+- `use-package!' for configuring packages
+- `after!' for running code after a package has loaded
+- `add-load-path!' for adding directories to the `load-path', relative to
+  this file. Emacs searches the `load-path' when you load packages with
+  `require' or `use-package'.
+- `map!' for binding new keys
+
+To get information about any of these functions/macros, move the cursor over
+the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
+This will open documentation for it, including demos of how they are used.
+Alternatively, use `C-h o' to look up a symbol (functions, variables, faces,
+etc).
+
+You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
+they are implemented.
+#+begin_src emacs-lisp :tangle yes
+(use-package! org-xournalpp
+  :config
+  (add-hook 'org-mode-hook 'org-xournalpp-mode))
+  #+end_src
+** Calendar
+*** org-agenda
+ #+begin_src emacs-lisp :tangle yes
+(setq org-agenda-files '("~/org" ;; All ~/org files
+                        "~/org/roam/daily" ;; All daily files
+      ))
+ #+end_src
+
+ #+RESULTS:
+ | ~/org | ~/org/roam/daily |
+
+ Capture templates (still not ready to use)
+ #+begin_src emacs-lisp :tangle no
+(setq org-roam-capture-templates
+'(("d" "default" plain "%?"
+  :target (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+  :unnarrowed t)
+ ;;("p" "Personal templates")
+ ("m" "Meetings" plain "%?"
+  :target (file+head "meeting/%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+  :unnarrowed t)
+ ))
+ #+end_src
+
+*** org-gcal
+Empty for now.
+*** calfw
+ #+begin_src emacs-lisp :tangle yes
+(defun my-open-calendar ()
+  "Custom calendar configuration."
+  (interactive)
+  (cfw:open-calendar-buffer
+   :contents-sources
+   (list
+    (cfw:org-create-source "Gray")  ; org-agenda source
+    (cfw:ical-create-source "Feriados" ; (feriados do Brasil) google calendar ICS
+                            "https://calendar.google.com/calendar/ical/pt-br.brazilian%23holiday%40group.v.calendar.google.com/public/basic.ics"
+                            "Blue")
+    (cfw:ical-create-source "Personal" ; (guidoneulaender@gmail.com) google calendar ICS
+                            "https://calendar.google.com/calendar/ical/guidoneulaender%40gmail.com/private-31f1b672591b401c237b3f91cd9d9842/basic.ics"
+                            "White")
+    (cfw:ical-create-source "Unicamp" ; (g217100@dac.unicamp.br) google calendar ICS
+                            "https://calendar.google.com/calendar/ical/g217100%40dac.unicamp.br/private-c0e773e73ab27be3d7dc26eb552dea16/basic.ics"
+                            "Orange")
+    (cfw:ical-create-source "Emancipa VPA" ; google calendar ICS
+                            "https://calendar.google.com/calendar/ical/gtppiu9gimkir7psnmiksehmjg%40group.calendar.google.com/private-9e969bdc0fc1c173b8d03288df98ce0c/basic.ics"
+                            "Green")
+   )))
+ #+end_src
+
+ #+RESULTS:
+ : my-open-calendar
+
+** Dictionary
+#+begin_src emacs-lisp :tangle yes
+(after! ispell
+  (setq ispell-program-name "hunspell")
+  (setq ispell-dictionary "pt_BR,en_US")
+  (ispell-set-spellchecker-params)
+  (ispell-hunspell-add-multi-dic "pt_BR,en_US")
+  )
+#+end_src
+* Latex
+** Org-mode preview
+#+begin_src emacs-lisp :tangle yes
+(setq org-preview-latex-default-process 'dvisvgm)
+#+end_src
+#+begin_src emacs-lisp :tangle yes
+(setq org-latex-pdf-process (list
+                             "latexrun --latex-cmd='pdflatex' --latex-args='-shell-escape' --bibtex-cmd='biber' %f"))
+                            ;; Other runners
+                            ;;"latexmk -pdflatex='lualatex -shell-escape -interaction nonstopmode' -pdf -f  %f"))
+#+end_src
+* Keybindings
+** General use
+First ever keybinding, done with the help of Lucas Viana (thanks!)
+#+begin_src emacs-lisp :tangle yes
+(map! :leader "d" #'+doom-dashboard/open)
+#+end_src

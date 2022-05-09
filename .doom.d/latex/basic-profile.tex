@@ -1,0 +1,57 @@
+%% PDF geometry
+\usepackage[margin=1in]{geometry}
+\usepackage{caption} \captionsetup[table]{skip=10pt} % Better table caption setup
+
+%% Math packages
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{commath}
+
+%% Theorem style and renaming
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{lexample}{Exemplo}[section]
+\newtheorem{definition}{Definição}[section]
+\newtheorem{demonstracao}{Demonstração}[section]
+\newtheorem{proposition}{Proposição}[section]
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{corollary}{Corolário}[section]
+\newtheorem{exercise}{Exercício}[section]
+
+%% Graphics support
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage{wrapfig} % wrap text around figures
+\usepackage{subcaption} % subfigure?
+\usepackage{/home/guido/.local/lib/latex/quiver} % diagram support from https://q.uiver.app/
+%\graphicspath{{.../img}}
+
+%% Quoting and citations
+\usepackage{appendix} % appendix page support
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\addbibresource{~/.doom.d/biblatex/references.bib}
+
+%% Itens and lists
+\usepackage{enumitem}
+
+%% Localization (babel does not work well with quiver)
+\renewcommand{\abstractname}{Resumo} %Abstract rename
+\renewcommand{\figurename}{Figura} %Figure rename
+\renewcommand{\tablename}{Tabela} %Table rename
+\renewcommand\appendixpagename{Anexos} %Appendix rename
+
+%% Math commands and shortcuts
+\newcommand{\NN}{\mathbb N}
+\newcommand{\ZZ}{\mathbb Z}
+\newcommand{\QQ}{\mathbb Q}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\CC}{\mathbb C}
+
+\renewcommand{\AA}{\mathbb A}
+\newcommand{\PP}{\mathbb P}
+
+\newcommand{\leftideal}{\vartriangleleft}
