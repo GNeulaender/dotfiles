@@ -1,1 +1,3 @@
-* #ignores everyfile
+*  #all files
+*/ #all folders
+!.gitignore
